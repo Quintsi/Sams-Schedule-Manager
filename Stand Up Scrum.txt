@@ -10,3 +10,19 @@ What blockers do I have? Nothing as of yet.
 
 
 December 2 -
+
+Yesterday I finished setting up the environment to work on JavafX grooming schedule and made a skeleton for the navigation view
+
+Today, I will finish the skeleton for the remainder of the views and begin making controllers for each view.
+
+I had some difficulty setting up the environment yesterday, for example I had some difficulty the with build path. Today the environment works fine; it's been tested with no errors.
+
+
+December 3 -
+
+Yesterday I completed the skeleton for the app. I started making controllers for each view, but ran into an issue.
+
+Today I will refactor some of the code I did yesterday to make it easier to work with. I will also create logic to switch between the views
+
+I had difficulty with how I will organize the views so that the stage could display two different nodes at the same time. I used Group two display two at once but there is an easier way to go about it
+and will make the code easier to work on.

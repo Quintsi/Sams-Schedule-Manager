@@ -9,8 +9,7 @@ public class DashboardController {
 	private BorderPane dashboard;
 	
 	public void initialize() {
-		dashboard.setLayoutX(400);
-		dashboard.setLayoutY(0);
+		
 	}
 
 }
