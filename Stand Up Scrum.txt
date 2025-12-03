@@ -1,0 +1,12 @@
+Stand-Up / Scrum
+
+December 1 (first day) -
+
+Yesterday I didn't do anything; today is my first day so this part is left blank.
+
+Today, I will begin on the skeleton of the JavaFX project -- building a grooming schedule.
+
+What blockers do I have? Nothing as of yet.
+
+
+December 2 -

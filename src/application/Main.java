@@ -1,8 +1,10 @@
 package application;
 	
+import application.controller.DashboardController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
+import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -12,8 +14,15 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			
-			Parent root = FXMLLoader.load(getClass().getResource("view/NavigationView.fxml"));
-			Scene scene = new Scene(root);
+			Parent navigation = FXMLLoader.load(getClass().getResource("view/NavigationView.fxml"));
+			FXMLLoader dashboardLoader = new FXMLLoader(getClass().getResource("view/DashboardView.fxml"));
+			Parent dashboard = dashboardLoader.load();
+			
+			DashboardController controller = dashboardLoader.getController();
+			controller.initialize();
+			
+			Group group = new Group(navigation, dashboard);
+			Scene scene = new Scene(group);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			
 			primaryStage.setTitle("Sam's Grooming Management");

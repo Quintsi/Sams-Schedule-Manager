@@ -1,0 +1,23 @@
+Documentation logs
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date: 2025-12-01
+Project: Sam's Grooming Schedule Management
+
+Tasks completed:
+- JavaFX, Scenebuilder, and project environment set up
+- Created FXML skeleton for navigation scene
+- Loaded a sample image into navigation scene
+- Resolved initial errors with project environment build paths, and image loading from resource path
+
+Challenges:
+- Figuring out proper FXML scene structure
+- Debugging image loading errors
+
+Next Steps:
+- Expand navigation scene with working buttons
+- Implement secondary scenes (e.g scheduling form and client info page)
+
+Notes:
+- Learned the structure and basic use of Scenebuilder to make FXML pages
+- Learned how to set up environment variables and IDE (eclipse) environment for JavaFX on a Linux machine.
