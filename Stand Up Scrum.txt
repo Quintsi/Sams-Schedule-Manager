@@ -1,12 +1,23 @@
 Stand-Up / Scrum
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
-December 1 (first day) -
+December 4 -
 
-Yesterday I didn't do anything; today is my first day so this part is left blank.
+Yesterday I finished the logic to switch between all the different views.
 
-Today, I will begin on the skeleton of the JavaFX project -- building a grooming schedule.
+Today I will work on getting the database set up and db connectivity.
 
-What blockers do I have? Nothing as of yet.
+I had some difficulty figuring out an error I was getting when trying to switch between views.
+
+
+December 3 -
+
+Yesterday I completed the skeleton for the app. I started making controllers for each view, but ran into an issue.
+
+Today I will refactor some of the code I did yesterday to make it easier to work with. I will also create logic to switch between the views
+
+I had difficulty with how I will organize the views so that the stage could display two different nodes at the same time. I used Group too display two at once but there is an easier way to go about it
+and will make the code easier to work on.
 
 
 December 2 -
@@ -18,11 +29,10 @@ Today, I will finish the skeleton for the remainder of the views and begin makin
 I had some difficulty setting up the environment yesterday, for example I had some difficulty the with build path. Today the environment works fine; it's been tested with no errors.
 
 
-December 3 -
+December 1 (first day) -
 
-Yesterday I completed the skeleton for the app. I started making controllers for each view, but ran into an issue.
+Yesterday I didn't do anything; today is my first day so this part is left blank.
 
-Today I will refactor some of the code I did yesterday to make it easier to work with. I will also create logic to switch between the views
+Today, I will begin on the skeleton of the JavaFX project -- building a grooming schedule.
 
-I had difficulty with how I will organize the views so that the stage could display two different nodes at the same time. I used Group two display two at once but there is an easier way to go about it
-and will make the code easier to work on.
+What blockers do I have? Nothing as of yet.

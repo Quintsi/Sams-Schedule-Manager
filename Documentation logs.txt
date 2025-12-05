@@ -1,6 +1,49 @@
 Documentation logs
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Date: 2025-12-03
+
+Tasks completed: 
+- 
+
+Challenges:
+-
+
+Next Steps:
+-
+
+
+Date: 2025-12-03
+
+Tasks completed: 
+- Refactored logic for displaying two nodes together in GUI
+	-> switched from using group() to using borderPane
+- Created navigation controller that holds the logic to switch between three different views
+
+Challenges:
+- I had an issue with some errors to switch between different views, though I was able to fix it by looking at the docs and checking for incorrect paths
+
+Next Steps:
+- Create database with mongoDB
+- connect the JavaFX app to the database to then begin working on logic for appointments and clients
+
+
+Date: 2025-12-02
+
+Tasks completed: 
+- Created skeleton FXML pages for dashboard, appointments, and clients.
+- Created controllers for each view
+- Organized my files in MVC structure
+
+Challenges:
+- Made an attempt to structure the scene so that two nodes displayed side by side, but will likely need to refactor the logic
+- debugging error grouping two nodes
+
+Next Steps:
+- Create Logic to switch between the views so navigation works seamlessly
+- Implement logic for basic functionality for the views
+
+
 Date: 2025-12-01
 Project: Sam's Grooming Schedule Management
 
