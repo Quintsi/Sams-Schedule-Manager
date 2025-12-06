@@ -4,13 +4,15 @@ Documentation logs
 Date: 2025-12-03
 
 Tasks completed: 
-- 
+- Setting up a database with MongoDB
+- Connecting the JavaFX application to the database
 
 Challenges:
 -
 
 Next Steps:
--
+- Create basic CRUD operations for the client controller
+- display information from the database to the client view
 
 
 Date: 2025-12-03
